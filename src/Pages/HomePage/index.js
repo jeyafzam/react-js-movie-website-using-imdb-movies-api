@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import PrimaryLayout from "../../Component/Layaouts/Primary";
-import MovieList from "../../Component/MovieList";
+import PrimaryLayout from "../../Components/Layaouts/Primary";
+import MovieList from "../../Components/MovieList";
 import { pageTitleMaker } from "../../Helpers/TitleMaker";
 
 export default function HomePage(){
@@ -9,8 +9,7 @@ export default function HomePage(){
     },[])
     return(
         <PrimaryLayout>
-              <MovieList title="Recently Updated" link="/" pageId="1"/>
-             
+              <MovieList />     
         </PrimaryLayout>
     )
 }

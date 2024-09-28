@@ -1,17 +1,17 @@
 export function itemTitleMaker(title, type) {
   let itemType = "";
   if (type === "movie") {
-    itemType = "فیلم";
+    itemType = "";
   } else if (type === "series") {
-    itemType = "سریال";
+    itemType = "";
   }
   if (title === "") {
-    document.title = "نماوا";
+    document.title ="FliXGo";
   } else {
-    document.title = `${itemType} ${title} | نماوا`;
+    document.title = `FliXGo-${itemType} ${title}  `;
   }
 }
 
 export function pageTitleMaker(title) {
-  document.title = ` ${title} - نماوا`;
+  document.title = ` ${title}  `;
 }

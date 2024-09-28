@@ -22,8 +22,11 @@ a{
     -webkit-transition: all 0.5s;
     color: #c7c7c7;
 }
-a:hover{
-   color:  #ff55a5;
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+  text-decoration: none;
 }
 ol,
 ul{
@@ -53,7 +56,8 @@ h6,
 }
 .full-width{
     width: 100%;
-    height: auto;
+    height: 350px;
+    border-radius: 9px;
 }
 .flex{
     display: flex;
@@ -117,22 +121,6 @@ h6,
     padding-left: 15px;
     padding-right: 15px;
 }
-.button{
-    display: inline-block;
-    border: 2px solid #fff;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 15px;
-    text-transform: uppercase;
-    -moz-text-transform: uppercase;
-    -ms-text-teransform:uppercase;
-    -o-text-teransform:uppercase;
-    -webkit-text-teransform:uppercase;
-    letter-spacing: 2px;
-    padding:15px 40px ;
-    transition: 0.15s;
-}
-.button:hover{
-    background-color: #fff;
-    color: #000;
-}
+.button:focus {
+    outline: none;
+  }

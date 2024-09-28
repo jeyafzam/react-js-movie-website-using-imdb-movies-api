@@ -1,0 +1,67 @@
+.singel-movie-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 120px auto 50px auto;
+}
+.singel-movie-container .title {
+  padding-bottom: 10px;
+  color: #c7c7c7;
+  font-size: 35px;
+  color: rgb(245, 191, 210);
+}
+.singel-movie-items {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.singel-movie-items .singel-movie-left-items img {
+  width: 250px;
+  height: 380px;
+  border-radius: 9px;
+  box-shadow: 0 0 20px 0 rgba(255, 88, 96, 0.6);
+}
+.singel-movie-items .singel-movie-right-items {
+  font-size: 16px;
+}
+.singel-movie-items .singel-movie-right-item {
+  color: rgb(243, 229, 234);
+  transition: all 3s;
+}
+.singel-movie-items .singel-movie-right-item:hover {
+  color: rgb(238, 143, 176);
+}
+.singel-movie-items .singel-movie-right-items .generItem {
+  padding: 0 5px;
+}
+
+.singel-movie-items .singel-movie-right-items .singel-movie-right-item {
+  padding: 5px;
+}
+.singel-movie-items
+  .singel-movie-right-items
+  .singel-movie-right-item
+  .singel-movie-right-item-fs {
+  font-size: 20px;
+  color: #8b898b;
+}
+
+.related-movie-items {
+  gap: 30px;
+}
+.related-movie-items .related-movie-left,
+.related-movie-items .related-movie-right {
+  color: rgb(236, 204, 209);
+  width: 450px;
+  padding: 30px;
+  box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.5);
+}
+.related-movie-items .related-movie-left .rt,
+.related-movie-items .related-movie-right .rt {
+  padding-bottom: 20px;
+  color: rgb(226, 195, 206);
+}
+.related-movie-items .related-movie-left ul,
+.related-movie-items .related-movie-right ul {
+  list-style: inside;
+  font-size: 20px;
+}
